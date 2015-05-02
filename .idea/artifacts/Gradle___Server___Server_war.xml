@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : Server : Server.war">
+    <output-path>$PROJECT_DIR$/out/artifacts/Server</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="Server.war">
+      <element id="javaee-facet-resources" facet="Server/web/Web Gradle : Server.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Server" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.apache.axis:axis:1.4" />
+          <element id="library" level="project" name="Gradle: org.apache.axis:axis-ant:1.4" />
+          <element id="library" level="project" name="Gradle: org.apache.axis:axis-jaxrpc:1.4" />
+          <element id="library" level="project" name="Gradle: commons-discovery:commons-discovery:0.2" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.0.4" />
+          <element id="library" level="project" name="Gradle: log4j:log4j:1.2.8" />
+          <element id="library" level="project" name="Gradle: axis:axis-saaj:1.4" />
+          <element id="library" level="project" name="Gradle: axis:axis-wsdl4j:1.5.1" />
+          <element id="library" level="project" name="Gradle: com.google.code.gson:gson:2.3" />
+          <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:5.1.35" />
+          <element id="library" level="project" name="Gradle: org.apache.directory.studio:org.apache.commons.io:2.1" />
+          <element id="library" level="project" name="Gradle: org.apache.axis:axis-saaj:1.4" />
+          <element id="library" level="project" name="Gradle: org.jdom:jdom:1.1" />
+          <element id="library" level="project" name="Gradle: commons-io:commons-io:2.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/Server/exploded/Server.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
